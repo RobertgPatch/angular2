@@ -39,12 +39,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-integration</artifactId>
 	</dependency>
-	<dependency>
+	<!-- <dependency>
         <groupId>com.swathisprasad.tutorial</groupId>
         <artifactId>tutorial-web</artifactId>
         <version>${project.version}</version>
         <scope>runtime</scope>
-    </dependency>
+    </dependency> -->
 	</dependencies>
 	
 	<build>
