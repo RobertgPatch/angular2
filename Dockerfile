@@ -1,4 +1,5 @@
-FROM maven:3.6.0-jdk-8-alpine as build
+# Start with a base image containing Java runtime
+FROM openjdk:8-jdk-alpine as build
 
 WORKDIR /app
 
